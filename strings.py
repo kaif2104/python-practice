@@ -5,18 +5,18 @@ def rev(a=""):
 
     a=list(a)
     n = len(a)
-    s=''
+    b=''
 
     i=0
     while i<n-1-i:
         a[i],a[n-1-i]=a[n-1-i],a[i]
-        s+=a[i]
+        b+=a[i]
         i+=1
     while i<n:
-        s+=a[i]
+        b+=a[i]
         i+=1
 
-    return s
+    return b
 
 
 def revwrd(a):
